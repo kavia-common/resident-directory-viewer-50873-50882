@@ -1,0 +1,29 @@
+.searchbar {
+  padding: 10px;
+}
+
+.search-input-wrap {
+  display: grid;
+  grid-template-columns: 28px 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-icon {
+  width: 28px;
+  text-align: center;
+  opacity: 0.75;
+}
+
+.search-input {
+  border-radius: var(--radius-sm);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  white-space: nowrap;
+}

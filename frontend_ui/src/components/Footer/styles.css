@@ -1,0 +1,13 @@
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
